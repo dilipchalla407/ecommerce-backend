@@ -1,0 +1,15 @@
+{
+    "name": "ecommerce-backend",
+    "version": "1.0.0",
+    "description": "Simple E-commerce Backend API",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "Dil",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.19.2"
+    }
+  }
