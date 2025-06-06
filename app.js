@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
     res.send('Welcome to the E-commerce Backend API!');
 });
 
+app.get('/api/welcome', (req, res) => {
+    res.send('Welcome to our new API endpoint!');
+});
+
 app.listen(port, () => {
     console.log(`Server listening at http://localhost:\${port}`);
 });
